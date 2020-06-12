@@ -1,0 +1,13 @@
+const kelvin = 293;
+//This variable represents the value of Kelvin.
+const celsius = kelvin - 273;
+//Celsius is 273 degrees less than Kelvin.
+let fahrenheit = celsius * (9 / 5) + 32;
+//Fahrenheit needs to be a changeable variable.
+fahrenheit = Math.floor(fahrenheit);
+//The code above will ensure the fahrenheit result is rounded up.
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+console.log(`The tempurature is ${celsius} degrees Celsius.`)
+let newton = celsius * (33 / 100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`)
