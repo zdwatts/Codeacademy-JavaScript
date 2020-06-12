@@ -1,0 +1,15 @@
+const myAge = 29;
+//This represents my current age.
+let earlyYears = 2;
+//This represents the first two years of a dog's life.
+earlyYears *= 10.5;
+//The first two years of a dog's life count as 10.5 dog years each.
+let laterYears = myAge - 2;
+laterYears *= 4;
+//Each year following the first two equates to 4 dog years.
+console.log(earlyYears);
+console.log(laterYears);
+const myAgeInDogYears = earlyYears + laterYears;
+//This variable will return my age in dog years.
+let myName = 'Zac Watts';
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
